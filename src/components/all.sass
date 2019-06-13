@@ -2,7 +2,7 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$primary: #00738A
+$primary: #252525
 $primary-invert: #fff
 $body-color: #333
 $black: #171717
@@ -59,13 +59,13 @@ body
     font-size: 1rem
     line-height: 1.25
     background-color: #fff
-    border-radius: .25rem
+    // border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #555
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #555
+    box-shadow: inset 0 0 0 2px #555
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -115,7 +115,7 @@ footer.footer
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #dfffec;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
@@ -139,3 +139,8 @@ footer.footer
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+
+// Custom CSS to overwrite bulma
+.box 
+  box-shadow: none;
