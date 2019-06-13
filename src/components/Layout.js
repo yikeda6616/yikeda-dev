@@ -38,6 +38,10 @@ const TemplateWrapper = ({ children }) => {
           href='/img/safari-pinned-tab.svg'
           color='#ff4400'
         />
+        <link
+          href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap'
+          rel='stylesheet'
+        />
         <meta name='theme-color' content='#fff' />
 
         <meta property='og:type' content='business.business' />

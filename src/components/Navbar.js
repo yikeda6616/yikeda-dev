@@ -44,7 +44,15 @@ const Navbar = class extends Component {
           <div className='navbar-brand'>
             <Link to='/' className='navbar-item' title='Logo'>
               {/* <img src={logo} alt='Kaldi' style={{ width: '88px' }} /> */}
-              yikeda.dev
+              <span
+                style={{
+                  fontSize: '24px',
+                  fontWeight: 700,
+                  fontFamily: 'Montserrat'
+                }}
+              >
+                yikeda.dev
+              </span>
             </Link>
             {/* Hamburger menu */}
             <div
