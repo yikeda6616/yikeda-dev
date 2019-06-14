@@ -2,14 +2,14 @@
 templateKey: index-page
 title: yikeda.dev
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: I write codes and blog for a fun.
 subheading: Tech Blog
 mainpitch:
-  title: Why Kaldi
+  title: Hi I'm Yasu
   description: >
-    description
+    I write codes and blog for fun.
 description: >-
-  description
+  This blog is my memorandom.
 intro:
   blurbs:
     - image: /img/coffee.png
