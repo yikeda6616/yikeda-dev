@@ -30,11 +30,11 @@ Node + React を主として JavaScript を書いているフリーランスの 
 
 - デザイン
 
-  **Sketch**, Illustrator, Photoshop, XD
+  Sketch, Illustrator, Photoshop, XD
 
 - その他
 
-  **React Native**, Git, WordPress
+  React Native, Git, WordPress
 
 ### その他スキル
 
