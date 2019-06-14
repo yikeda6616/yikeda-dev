@@ -1,12 +1,12 @@
 ---
-templateKey: 'blog-post'
-title: 'Hallo Welt'
-date: 2017-01-04T15:04:10.000Z
-featuredpost: true
+templateKey: blog-post
+title: Hallo World
+date: 2019-06-16 00:00:00
+featuredpost: false
 description: >-
   This is a description
 tags:
   - notice
 ---
 
-Hello World!
+This is a content.
