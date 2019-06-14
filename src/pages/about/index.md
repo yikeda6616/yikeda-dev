@@ -18,23 +18,23 @@ Node + React を主として JavaScript を書いているフリーランスの 
 
 - サーバーサイド
 
-  **Node**, **Express**, PHP, Ruby on Rails
+  Node, Express, PHP
 
 - フロントエンド
 
-  **React**, **Redux**, Gulp, Webpack, jQuery
+  React, React Hooks API, Redux, Gulp, Webpack, Pug, Sass
 
 - インフラ・DB
 
-  **Firebase**, **MySQL**, Linux, Docker, Nginx
+  Firebase, MySQL, Linux, Docker, Nginx
 
 - デザイン
 
-  **Sketch**, Illustrator, Photoshop, XD
+  Sketch, Illustrator, Photoshop, XD
 
 - その他
 
-  **React Native**, Git
+  React Native, Git, WordPress
 
 ### その他スキル
 
