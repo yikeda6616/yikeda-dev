@@ -5,7 +5,7 @@ title: Products
 image: /img/jumbotron.jpg
 heading: Things I created for fun
 description: >-
-  description
+  Under construction yet
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -24,7 +24,7 @@ intro:
   description: >
     lorem
 main:
-  heading: Great coffee with no compromises
+  heading: heading
   description: >
     lorem
   image1:
@@ -45,7 +45,7 @@ testimonials:
       quote
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: heading
   description: >-
     description
   plans:
