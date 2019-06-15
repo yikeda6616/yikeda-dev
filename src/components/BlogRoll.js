@@ -7,7 +7,7 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
-
+    console.log(posts);
     return (
       <div className='columns is-multiline'>
         {posts &&
@@ -43,7 +43,7 @@ class BlogRoll extends React.Component {
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description}
                   {/* <br />
                   <br />
                   <Link className='button' to={post.fields.slug}>
@@ -93,6 +93,7 @@ export default () => (
                     }
                   }
                 }
+                description
               }
             }
           }
