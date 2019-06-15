@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: ブログ開設
 date: 2019-06-16 19:06:16
-featuredpost: true
+featuredpost: false
 featuredimage: /img/og-image.jpg
 description: ブログ始めました。
 tags:

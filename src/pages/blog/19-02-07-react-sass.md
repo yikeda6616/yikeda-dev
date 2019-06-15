@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: create-react-appでSassやCSS-moduleを使う方法
 date: 2019-02-07T02:22:19.992Z
+featuredpost: true
 description: 2018年10月のcreate-react-app v2のリリースで色々簡単になったようなので軽くメモ
 tags:
   - JavaScript

@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Gulp v4.0 でHTML5(Pug) + CSS3(Sass)の爆速コーディング環境構築
 date: 2019-04-24T09:30:00.000Z
+featuredpost: true
 description: gulp v4 を使いPugとSassでコーディングする際のスターターを作りました。
 tags:
   - gulp
