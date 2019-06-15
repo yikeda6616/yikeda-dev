@@ -76,15 +76,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID,
+        trackingId: process.env.REACT_APP_GA_TRACKING_ID,
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: false
         // Setting this parameter is optional
-        anonymize: true,
+        // anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,
+        // respectDNT: true,
         // Avoids sending pageview hits from custom paths
-        exclude: ['/preview/**', '/do-not-track/me/too/'],
+        // exclude: ['/preview/**', '/do-not-track/me/too/'],
         // Enables Google Optimize using your container Id
         // optimizeId: 'YOUR_GOOGLE_OPTIMIZE_TRACKING_ID',
         // Enables Google Optimize Experiment ID
@@ -92,9 +92,9 @@ module.exports = {
         // Set Variation ID. 0 for original 1,2,3....
         // variationId: 'YOUR_GOOGLE_OPTIMIZE_VARIATION_ID',
         // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: 'yikeda.dev'
+        // sampleRate: 5,
+        // siteSpeedSampleRate: 10,
+        // cookieDomain: 'yikeda.dev'
       }
     },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
