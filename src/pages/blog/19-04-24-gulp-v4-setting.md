@@ -3,6 +3,7 @@ templateKey: blog-post
 title: Gulp v4.0 でHTML5(Pug) + CSS3(Sass)の爆速コーディング環境構築
 date: 2019-04-24T09:30:00.000Z
 featuredpost: true
+featuredimage: /img/gulp-pug-sass.png
 description: gulp v4 を使いPugとSassでコーディングする際のスターターを作りました。
 tags:
   - gulp
@@ -12,6 +13,8 @@ tags:
   - Frontend
   - Markup
 ---
+
+![gulp-sass-pug](/img/gulp-pug-sass.png)
 
 普段マークアップをする際 gulp を使って pug, sass, js minify, css autoprefix, 画像圧縮などを諸々一括で行なっているのですが、gulp のバージョンがいつの間にか 4.0 になり色々変わっていたので重い腰をあげてリファクタリングしました。
 
@@ -121,7 +124,136 @@ $ gulp
 
 `gulpfile.js/`フォルダには設定の内容が入っています。
 
-モジュールが多くなったので分かりやすいように`modules.js`とファイルを分割しました。
+module が多いので`gulpfile.js`をディレクトリ化し、中に`index.js`と`modules.js`に分割しています。
+
+`gulpfile.js/index.js`
+
+```
+const { src, dest, parallel, watch } = require('gulp');
+const $ = require('./modules.js');
+const uglify = $.composer($.uglifyes, $.composer);
+
+function html() {
+  return src(['./src/pug/*.pug', '!./src/pug/**/_*.pug'])
+    .pipe(
+      $.plumber({
+        errorHandler: $.notify.onError('Error: <%= error.message %>')
+      })
+    )
+    .pipe(
+      $.pug({
+        pretty: true
+      })
+    )
+    .pipe(dest('./dist'))
+    .pipe(
+      $.browserSync.reload({
+        stream: true,
+        once: true
+      })
+    );
+}
+
+function css() {
+  return src('./src/scss/*.scss')
+    .pipe($.sourcemaps.init())
+    .pipe($.sass())
+    .on('error', $.sass.logError)
+    .pipe(
+      $.autoprefixer({
+        browsers: ['last 2 versions']
+      })
+    )
+    .pipe($.sourcemaps.write())
+    .pipe(dest('./dist/css'))
+    .pipe(
+      $.rename({
+        suffix: '.min'
+      })
+    )
+    .pipe($.minifyCSS())
+    .pipe(dest('./dist/css'))
+    .pipe(
+      $.browserSync.reload({
+        stream: true,
+        once: true
+      })
+    );
+}
+
+function js() {
+  return src('./src/js/*.js', { sourcemaps: true })
+    .pipe($.plumber())
+    .pipe(uglify({ output: { comments: /^!/ } }))
+    .pipe(
+      $.concat('main.min.js', {
+        newLine: '\n'
+      })
+    )
+    .pipe(dest('./dist/js', { sourcemaps: true }))
+    .pipe(
+      $.browserSync.reload({
+        stream: true,
+        once: true
+      })
+    );
+}
+
+function img() {
+  return src('./src/img/**')
+    .pipe($.changed('./dist/img/'))
+    .pipe(
+      $.imagemin({
+        optimizationLevel: 3
+      })
+    )
+    .pipe(dest('./dist/img/'));
+}
+
+function bs() {
+  $.browserSync.init({
+    server: {
+      baseDir: './dist/'
+    },
+    notify: true,
+    xip: false
+  });
+}
+
+exports.html = html;
+exports.css = css;
+exports.js = js;
+exports.bs = bs;
+exports.img = img;
+
+exports.default = parallel([html, css, js, img, bs], () => {
+  watch('./src/pug/**', html);
+  watch('./src/scss/**', css);
+  watch('./src/js/**', js);
+  watch('./src/img/**', img);
+});
+```
+
+`modules.js`
+
+```
+module.exports = {
+  pug: require('gulp-pug'),
+  sass: require('gulp-sass'),
+  minifyCSS: require('gulp-csso'),
+  concat: require('gulp-concat'),
+  browserSync: require('browser-sync'),
+  plumber: require('gulp-plumber'),
+  notify: require('gulp-notify'),
+  autoprefixer: require('gulp-autoprefixer'),
+  sourcemaps: require('gulp-sourcemaps'),
+  rename: require('gulp-rename'),
+  imagemin: require('gulp-imagemin'),
+  changed: require('gulp-changed'),
+  uglifyes: require('uglify-es'),
+  composer: require('gulp-uglify/composer')
+};
+```
 
 ## Pug について
 
@@ -137,7 +269,5 @@ Pug の実際の記法は[公式ドキュメント](https://pugjs.org/api/gettin
 こちらも同様にインクルードするファイルにはアンダースコア`_`を名前の先頭につけてください。
 
 ---
-
-説明は以上になります。
 
 質問や改善案などありましたら Twitter[@yikeda6616](https://twitter.com/yikeda6616)までご指摘下さい m(\_\_)m
