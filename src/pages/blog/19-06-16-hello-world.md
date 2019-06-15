@@ -3,10 +3,13 @@ templateKey: blog-post
 title: ブログ開設
 date: 2019-06-16 19:06:16
 featuredpost: true
+featuredimage: /img/og-image.jpg
 description: ブログ始めました。
 tags:
   - notice
 ---
+
+![cover](/img/og-image.jpg)
 
 よろしくお願いします。
 
