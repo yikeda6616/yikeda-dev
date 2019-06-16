@@ -4,15 +4,19 @@ path: /about
 title: All about me.
 ---
 
+### Hello,
+
+I'm a Japanese web engineer currently base in Vancouver, Canada.
+
+I love coding to create digital products, especially with React.
+
 ### 自己紹介
 
-Node + React を主として JavaScript を書いているフリーランスの Web エンジニアです。
+Node + React が好きな Web エンジニアです。
 
 モダンな技術に興味があり他の技術スタックの仕事も喜んでやります。
 
 獨協大学外国語学部を卒業後１年間 SES で働いたのち、バンクーバーへ渡航し１年間専門学校でデザインの勉強をしました。
-
-プログラミングを始めたのは 2016 年 11 月、Dotinstall や Progate などから独学で始め、エンジニアとしての職に就いたのは 2017 年 2 月です。エンジニアとしての経歴は約 2 年半程度あります(2019/6)。
 
 ### 技術スタック
 
@@ -38,13 +42,11 @@ Node + React を主として JavaScript を書いているフリーランスの 
 
 ### その他スキル
 
-- BtoC サービス各種機能実装経験あり
-- Express + React + Redux を TypeScript で実装し開発環境 Docker 化
 - オフショアとの実務経験あり
-- 実務での英語通訳経験あり
+- 実務での英語逐次通訳経験あり
 - チームリーダの経験あり
 
-## 成果物・実績
+## 作ったもの
 
 ### 当サイト
 
@@ -54,7 +56,7 @@ Gatsby は React ベースの静的サイト構築ライブラリで、Netlify �
 
 使用スタック：React, Gatsby, Sass, Netlify
 
-### Mike Smooth
+### [Mike Smooth](https://mike-smooth-233117.firebaseapp.com/)
 
 React でシンプルな音楽プレイヤーを実装した DJ のホームページです。
 設計・デザイン・コーディング・実装まで一括で行なっています。
@@ -67,7 +69,7 @@ Google Places API から現在地付近 200m 以内の飲食店を２０件取�
 お昼時に食べに行くお店を決められないので作りました。
 デザイナーの友人[Reo さん]()と二人で, React Native (Expo)で開発し、主にバックエンドロジックを実装しました。
 
-### Rando
+### [Rando](https://github.com/yikeda6616/rando)
 
 バックエンドに Express, フロントエンドに React を使ったシンプルなパスワードジェネレーターアプリです。
 React から API リクエストを送り返ってきた json データを React Hook で State に格納し表示しています。
