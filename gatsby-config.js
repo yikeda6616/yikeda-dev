@@ -1,5 +1,4 @@
 var proxy = require('http-proxy-middleware');
-const config = require('./siteConfig');
 
 module.exports = {
   siteMetadata: {
