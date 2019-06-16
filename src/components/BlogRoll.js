@@ -30,9 +30,9 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   )}
-                  <p className='post-meta'>
+                  <p className='post-meta' style={{ marginTop: '20px' }}>
                     <Link
-                      className='title has-text-primary is-size-4'
+                      className='title has-text-primary is-size-5'
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}

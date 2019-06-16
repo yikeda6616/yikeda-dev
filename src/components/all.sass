@@ -115,14 +115,14 @@ footer.footer
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #dfffec;
+  background-color: #efefef;
 .blog-list-item header
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
 .blog-list-item .featured-thumbnail
   flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  margin: 0 0 0 0;
 
 
 @import "~bulma"
@@ -139,10 +139,25 @@ footer.footer
   .blog-list-item .featured-thumbnail
     text-align: center;
     max-width: 70%;
-    margin: 0 0 1em;
+    margin: 0 auto;
 
 
 // Custom CSS to overwrite bulma
+.content p:not(:last-child), .content ul:not(:last-child) 
+  margin-bottom: 0
+
+.notification
+  padding: 1.25rem
+
+.notification a:not(.button):not(.dropdown-item)
+  text-decoration: none
+
+pre
+  background-color: #24262e !important
+code
+  background-color: #24262e 
+  display: inline-block
+
 a.navbar-item
   &:hover, &:focus
     color: $primary
