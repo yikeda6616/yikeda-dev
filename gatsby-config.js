@@ -1,4 +1,5 @@
 var proxy = require('http-proxy-middleware');
+const config = require('./siteConfig');
 
 module.exports = {
   siteMetadata: {
@@ -76,7 +77,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.REACT_APP_GA_TRACKING_ID,
+        trackingId: config.GA_TRACKING_ID,
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false
         // Setting this parameter is optional
