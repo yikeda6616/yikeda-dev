@@ -3,6 +3,7 @@ templateKey: blog-post
 title: create-react-appでSassやCSS-moduleを使う方法
 date: 2019-02-07T02:22:19.992Z
 featuredpost: true
+featuredimage: /img/react-sass.png
 description: 2018年10月のcreate-react-app v2のリリースで色々簡単になったようなので軽くメモ
 tags:
   - JavaScript
@@ -12,6 +13,8 @@ tags:
   - Sass
   - CSS-Module
 ---
+
+![react-sass](/img/react-sass.png)
 
 少し前まで
 [create-react-app で SASS ファイルを使う方法](https://qiita.com/chieeeeno/items/1dda5c47d4f1e36408e8)
