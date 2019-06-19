@@ -4,12 +4,6 @@ path: /about
 title: All about me.
 ---
 
-### Hello,
-
-I'm a Japanese web engineer currently base in Vancouver, Canada.
-
-I love coding to create digital products, especially with React.
-
 ### 自己紹介
 
 Node + React が好きな Web エンジニアです。
@@ -18,11 +12,11 @@ Node + React が好きな Web エンジニアです。
 
 獨協大学外国語学部を卒業後１年間 SES で働いたのち、バンクーバーへ渡航し１年間専門学校でデザインの勉強をしました。
 
-### 技術スタック
+### 技術スキル
 
 - サーバーサイド
 
-  Node, Express, PHP
+  Node, Express
 
 - フロントエンド
 
@@ -54,14 +48,14 @@ Node + React が好きな Web エンジニアです。
 Gatsby は React ベースの静的サイト構築ライブラリで、Netlify にてホスティングしています。
 当サイトの設計・デザイン・コーディング・実装を私自身で行なっています。
 
-使用スタック：React, Gatsby, Sass, Netlify
+-：React, Gatsby, Sass, Netlify
 
 ### [Mike Smooth](https://mike-smooth-233117.firebaseapp.com/)
 
 React でシンプルな音楽プレイヤーを実装した DJ のホームページです。
 設計・デザイン・コーディング・実装まで一括で行なっています。
 
-使用スタック：React, React-Router, React-Transition, Sass, Firebase, Sketch, Illustrator
+-：React, React-Router, React-Transition, Sass, Firebase, Sketch, Illustrator
 
 ### Gurumeshi
 
@@ -69,16 +63,18 @@ Google Places API から現在地付近 200m 以内の飲食店を２０件取�
 お昼時に食べに行くお店を決められないので作りました。
 デザイナーの友人[Reo さん]()と二人で, React Native (Expo)で開発し、主にバックエンドロジックを実装しました。
 
+-:React Native, Expo, Sketch
+
 ### [Rando](https://github.com/yikeda6616/rando)
 
 バックエンドに Express, フロントエンドに React を使ったシンプルなパスワードジェネレーターアプリです。
-React から API リクエストを送り返ってきた json データを React Hook で State に格納し表示しています。
+React から API リクエストを送り返ってきた json データを React Hooks で State に格納し表示しています。
 TypeScript の練習用に作ったのでバックエンド・フロントエンド共に TypeScript で実装しています。
+-:ts-node, express, React
 
-### お仕事の募集
+### 各種 SNS
 
-現在週 2 日ほどで参加できる開発の仕事を募集しております。
-ご興味のある方は Twitter の DM よりご連絡ください。
-
-Twitter アカウント
-[@yikeda6616](https://twitter.com/yikeda6616)
+- [Twitter](https://twitter.com/yikeda6616)
+- [Instagram](https://www.instagram.com/yikeda6616/)
+- [Wantedly](https://www.wantedly.com/users/18237225)
+- [LinkedIn](https://www.linkedin.com/in/yasushi-ikeda-0aa72b153/)
