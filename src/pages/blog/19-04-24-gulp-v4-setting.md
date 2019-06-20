@@ -43,7 +43,7 @@ Pug や Sass の学習コストは低いのでまだ使ったことがないと�
 
 ## 実行環境
 
-```
+```shell
 $ gulp -v
 CLI version 2.1.0
 Local version 4.0.0
@@ -56,7 +56,7 @@ v10.15.3
 
 [GitHub リポジトリ](https://github.com/yikeda6616/gulp-static-starter-v4)からダウンロードまたは`git clone`できます
 
-```
+```shell
 $ git clone https://github.com/yikeda6616/gulp-static-starter-v4
 $ git mv gulp-static-starter-v4 my-project # フォルダをリネーム
 $ cd my-project # プロジェクトフォルダに移動
@@ -66,17 +66,17 @@ $ cd my-project # プロジェクトフォルダに移動
 
 gulp のグローバルインストールが済んでいないかたは
 
-```
+```shell
 $ npm i -g gulp # gulp cliのグローバルインストール
 ```
 
-```
+```shell
 $ npm install
 ```
 
 プロジェクトフォルダ内で`gulp`コマンドを叩いてプロジェクトを開始できます
 
-```
+```shell
 $ gulp
 ```
 
@@ -84,7 +84,7 @@ $ gulp
 
 `node_module/`は省略しています。
 
-```
+```shell
 ~/my-project ❯❯❯ tree
 .
 ├── dist # コンパイル後の出力されるファイル群
@@ -126,9 +126,9 @@ $ gulp
 
 module が多いので`gulpfile.js`をディレクトリ化し、中に`index.js`と`modules.js`に分割しています。
 
-`gulpfile.js/index.js`
+**gulpfile.js/index.js**
 
-```
+```js
 const { src, dest, parallel, watch } = require('gulp');
 const $ = require('./modules.js');
 const uglify = $.composer($.uglifyes, $.composer);
@@ -234,9 +234,9 @@ exports.default = parallel([html, css, js, img, bs], () => {
 });
 ```
 
-`modules.js`
+**gulpfile.js/modules.js**
 
-```
+```js
 module.exports = {
   pug: require('gulp-pug'),
   sass: require('gulp-sass'),

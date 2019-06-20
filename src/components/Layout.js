@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './all.sass';
 import useSiteMetadata from './SiteMetadata';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();

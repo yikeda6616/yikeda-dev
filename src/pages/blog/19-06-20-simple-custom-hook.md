@@ -14,11 +14,17 @@ tags:
 
 <!-- TODO: Add featuredimage -->
 
-React Hooks API を使ってカスタムフックを作るまでの流れをめちゃくちゃシンプルに書きます
+<br>
 
-とりあえず普通に Functional Component に全部書き、
+React Hooks API を使ってカスタムフックを作るまでの流れをめちゃくちゃシンプルに書きました。
+
+<br>
+
+とりあえず普通に Functional Component に state 変更や画面を全部書き、
 
 その後、それらをまとめる処理をカスタムフックとして作り画面と分離するという流れで行います。
+
+<div style="margin-bottom: 100px"></div>
 
 **ベースとなるコード src/App.tsx**
 
@@ -45,7 +51,11 @@ const App: FC = () => {
 };
 ```
 
+<div style="margin-bottom: 100px"></div>
+
 ここからロジックと画面を以下のように分離する
+
+<br>
 
 **src/components/App.tsx(画面, スタイル)**
 
@@ -61,6 +71,8 @@ const AppComponent: FC<AppProps> = ({ someValue, someFunc }) => (
   </div>
 );
 ```
+
+<div style="margin-bottom: 100px"></div>
 
 **src/container/App.tsx(ロジック)**
 
@@ -88,6 +100,8 @@ const AppContainer = () => {
   return <AppComponent someValue={someValue}, someFunc={someFunc}>;
 }
 ```
+
+<div style="margin-bottom: 100px"></div>
 
 フックの部分にコメントで説明つけるとこんな具合
 

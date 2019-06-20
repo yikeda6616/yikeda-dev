@@ -24,7 +24,7 @@ tags:
 
 Node.js が入っていれば下記のコマンドを叩いてすぐにスタートできます。(node.js のインストールは割愛します）
 
-```
+```shell
 $ npx create-react-app my-project
 ```
 
@@ -33,7 +33,7 @@ $ npx create-react-app my-project
 
 ## Sass をインストール
 
-```
+```shell
 $ cd my-project #プロジェクトフォルダに移動
 $ yarn add -D node-sass
 ```
@@ -50,7 +50,7 @@ yarn でなく`npm i -D node-sass`でも ok です。
 
 これだけでもう sass が使える状態になったので、下記コマンドでアプリを起動してみましょう。
 
-```
+```shell
 $ yarn start
 ```
 
@@ -64,7 +64,7 @@ $ yarn start
 
 autoprefix のコンフィグは`package.json`の`"browserslist"`に記載されていますので、追記して IE10 などに対応することもできます。
 
-```package.json
+```json
 ...
 "browserslist": [
   ">0.2%",

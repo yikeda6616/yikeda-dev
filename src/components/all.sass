@@ -141,6 +141,56 @@ footer.footer
     max-width: 70%;
     margin: 0 auto;
 
+// PrismJS
+.gatsby-highlight-code-line 
+  background-color: #feb
+  display: block
+  margin-right: -1em
+  margin-left: -1em
+  padding-right: 1em
+  padding-left: 0.75em
+  border-left: 0.25em solid #f99
+
+.gatsby-highlight 
+  background-color: #fdf6e3
+  border-radius: 0.3em
+  margin: 0.5em 0
+  padding: 1em
+  overflow: auto
+  
+  pre[class*="language-"] 
+    background-color: transparent
+    margin: 0
+    overflow: initial
+    float: left
+    min-width: 100%
+    &.line-numbers 
+      padding-left: 2.8em
+      padding: 0 !important
+
+pre[class*="language-"] 
+  padding: 0 !important
+
+code
+  padding: 0 !important
+
+.language-text
+  border-radius: none !important
+
+.tag:not(body)
+  padding: 0;
+  font-size: 1em !important
+  background-color: transparent !important
+
+// .gatsby-remark-code-title 
+//   margin-bottom: -0.6rem
+//   padding: 0.5em 1em
+//   font-family: Consolas, Monaco, 'Courier New', Courier,monospace, sans-serif
+//   background-color: black
+//   color: white
+//   z-index: 0
+//   border-top-left-radius: 0.3em
+//   border-top-right-radius: 0.3em
 
 // Custom CSS to overwrite bulma
 .content p:not(:last-child), .content ul:not(:last-child) 
@@ -151,14 +201,6 @@ footer.footer
 
 .notification a:not(.button):not(.dropdown-item)
   text-decoration: none
-
-pre
-  display: block !important
-  background-color: #24262e !important
-
-code
-  background-color: #24262e 
-  display: inline-block
 
 a.navbar-item
   &:hover, &:focus
