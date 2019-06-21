@@ -3,7 +3,7 @@ templateKey: blog-post
 title: macOSのキーボード連続入力受付時間を変更して開発効率を向上する
 date: 2019-06-16 19:06:16
 featuredpost: true
-featuredimage: /img/keyboard-setting.jpg
+featuredimage: /img/keyboard.jpg
 description: macOSのキーボード入力受付時間を短くし開発効率を上げる方法
 tags:
   - macOS
@@ -11,19 +11,25 @@ tags:
   - setting
 ---
 
+![keyboard](/img/keyboard.jpg)
+
 macOS のキーボードの連続入力受付時間を短くすることで、開発効率が爆上がりしたのでシェアします。
 
 記事にするほどの内容ではないかもしれませんが、誰がやっても速攻で効果を得られるのでもしやってなければ間違いなくやるべきだと思います。
 
 といってもとても簡単で、5 秒で終わる内容です。
 
-まず、「システム環境設定」から「キーボード」の項目を選びます。
+<br>
+
+「システム環境設定」から「キーボード」の項目を選びます。
 
 ![keyboard-setting](/img/keyboard-setting.jpg)
 
 キーボードリピートとディレイの両方を最短に変更します。
 
 これで矢印キーなどでエディタ内の移動がめちゃくちゃ早くなります。
+
+<br>
 
 mac を買ったらとりあえず変更しておきたい項目の一つですね。
 
