@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 【React Hooks】How to use Custom Hook
-date: 2019-06-20 12:58:53
+date: 2019-06-21 12:58:53
 featuredpost: false
 featuredimage: /img/og-image.jpg
 description: Newly added feature React Hooks API released from React v16.8
