@@ -58,7 +58,7 @@ v10.15.3
 
 ```shell
 $ git clone https://github.com/yikeda6616/gulp-static-starter-v4
-$ git mv gulp-static-starter-v4 my-project # フォルダをリネーム
+$ mv gulp-static-starter-v4 my-project # フォルダをリネーム
 $ cd my-project # プロジェクトフォルダに移動
 ```
 
