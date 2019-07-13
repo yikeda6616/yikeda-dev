@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 英語力の変遷と今後の目標
-date:
+date: 2019-07-13 01:00:16
 featuredpost: false
 featuredimage: /img/english-ogp.jpg
 description: 英語学び始めて早8年。
