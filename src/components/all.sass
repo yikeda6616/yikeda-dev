@@ -8,13 +8,6 @@ $body-color: #333
 $black: #171717
 $primary-font: Montserrat, sans-serif
 
-body 
-  font-family: $primary-font !important
-  font-weight: 300 !important
-
-.navbar .navbar-menu
-  box-shadow:none !important
-
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -125,9 +118,7 @@ footer.footer
   flex-basis: 35%;
   margin: 0 0 0 0;
 
-
 @import "~bulma"
-
 
 // responsiveness
 +tablet-only
@@ -194,6 +185,16 @@ code
 //   border-top-right-radius: 0.3em
 
 // Custom CSS to overwrite bulma
+body 
+  font-family: $primary-font 
+  font-weight: 300
+
+.navbar .navbar-menu
+  box-shadow:none
+
+.content h1, .content h2, .content h3, .content h4
+  font-weight: 400
+
 .content p:not(:last-child), .content ul:not(:last-child) 
   margin-bottom: 0
 
