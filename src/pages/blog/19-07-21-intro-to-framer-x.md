@@ -44,13 +44,13 @@ tags:
 - スライドショー（アニメーション有）
 - レコメンデーション（横スクロール有）
 
-![demo](/img/framerx/ss/demo.png)
+![demo](/img/framerx/ss/demo.jpg)
 
 ### Packages
 
 豊富なアドオンがありサクッとインストールしてすぐ使えます。
 
-![](/img/framerx/ss/plugins.png)
+![](/img/framerx/ss/plugins.jpg)
 
 ##### 今回使ったものは以下：
 
@@ -65,6 +65,8 @@ tags:
 - Youtube
 
   Youtube 動画埋め込み用。プレビューすると**実際にプレイヤーが表示され再生もできる**。
+
+  ![youtube](/img/framerx/ss/youtube.jpg)
 
 - Icon Generator
 
@@ -88,7 +90,7 @@ Frame のなかにさらに Frame を作る場合は `G`で**Drawing Mode**に�
 
 ##### 以下画像は Drawing Mode で再生ボタンを作っているところ
 
-![](/img/framerx/ss/button.png)
+![](/img/framerx/ss/button.jpg)
 
 このあたりの使い勝手は非常に良くて、デザインの時点でコンポーネント指向がかなり簡単に実現されている印象。
 
@@ -107,13 +109,13 @@ Frame のなかにさらに Frame を作る場合は `G`で**Drawing Mode**に�
 スタックの中にまとめられた要素は`display: flex;`の要領でうまいこと配置してくれます。
 
 スタックエリアを作り
-![stack](/img/framerx/ss/stack-1.png)
+![stack](/img/framerx/ss/stack-1.jpg)
 
 要素を放り込んで並び方を指定して
-![stack](/img/framerx/ss/stack-2.png)
+![stack](/img/framerx/ss/stack-2.jpg)
 
 使いたい場所に移動する(ここでは Overflow: hidden;を指定しています)
-![stack](/img/framerx/ss/stack-3.png)
+![stack](/img/framerx/ss/stack-3.jpg)
 
 もちろんオプションで space-around や space-between などの flex 用のプロパティを変更できます。
 
