@@ -12,11 +12,11 @@ tags:
   - FramerX
 ---
 
-個人的にかなり使い勝手が好きでよかったけど Sketch から乗り換えるかと言われるとまだ怪しい
-
-![eyecatch](/img/og-framerx.jpg)
-
 7 月 21 日に [Intro to Framer X(for beginners)](https://www.meetup.com/Get-together-learn-and-make-some-design/events/263145321/) に参加してきた記録です。
+
+<br>
+
+個人的にかなり使い勝手が好きでよかったけど Sketch から乗り換えるかと言われるとまだ怪しい。
 
 <br>
 
