@@ -12,6 +12,7 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
+  featuredimage,
   helmet
 }) => {
   const PostContent = contentComponent || Content;
@@ -26,6 +27,9 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
+            <p>
+              <img src={featuredimage} alt='featuedimage' />
+            </p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -56,6 +60,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
+  const image = `https://yikeda.dev/img/${post.frontmatter.featuredimage.relativePath}`;
 
   return (
     <Layout>
@@ -63,14 +68,27 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        featuredimage={image}
         helmet={
-          <Helmet titleTemplate='%s | Blog'>
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name='description'
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
+          <Helmet
+            titleTemplate='%s | Blog'
+            title={post.frontmatter.title}
+            meta={[
+              { name: 'description', content: post.frontmatter.description },
+              {
+                property: 'og:title',
+                content: post.frontmatter.title
+              },
+              {
+                property: 'og:description',
+                content: post.frontmatter.description
+              },
+              {
+                property: 'og:image',
+                content: image
+              }
+            ]}
+          />
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
@@ -97,6 +115,9 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          relativePath
+        }
       }
     }
   }

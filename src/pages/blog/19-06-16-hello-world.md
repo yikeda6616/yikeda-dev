@@ -9,8 +9,6 @@ tags:
   - notice
 ---
 
-![cover](/img/og-image.jpg)
-
 よろしくお願いします。
 
 ## 自己紹介

@@ -14,8 +14,6 @@ tags:
   - CSS-Module
 ---
 
-![react-sass](/img/react-sass.png)
-
 少し前まで
 [create-react-app で SASS ファイルを使う方法](https://qiita.com/chieeeeno/items/1dda5c47d4f1e36408e8)
 こちらの方法で sass を使っていたのですが、今はよりシンプルに使えるようになったようなので、自分用にまとめておきます。

@@ -14,8 +14,6 @@ tags:
   - Markup
 ---
 
-![gulp-sass-pug](/img/gulp-pug-sass.png)
-
 普段マークアップをする際 gulp を使って pug, sass, js minify, css autoprefix, 画像圧縮などを諸々一括で行なっているのですが、gulp のバージョンがいつの間にか 4.0 になり色々変わっていたので重い腰をあげてリファクタリングしました。
 
 `.task`が非推奨になったことで書き方が大幅に変わっており

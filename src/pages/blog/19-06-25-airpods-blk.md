@@ -13,10 +13,6 @@ tags:
 
 <br>
 
-![airpods-blk](/img/airpods-blk.jpg)
-
-<br>
-
 2017 年で一番良かった買い物は Airpods でした。
 
 <br>

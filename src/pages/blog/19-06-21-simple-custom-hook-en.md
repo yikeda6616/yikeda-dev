@@ -12,8 +12,6 @@ tags:
   - Custom-Hooks
 ---
 
-<!-- TODO: Add featuredimage -->
-
 <br>
 
 Here I wrote an example of the implementation of simple way to organize your own hook.

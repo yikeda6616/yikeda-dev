@@ -12,8 +12,6 @@ tags:
   - Custom-Hooks
 ---
 
-<!-- TODO: Add featuredimage -->
-
 <br>
 
 React Hooks API を使ってカスタムフックを作るまでの流れをめちゃくちゃシンプルに書きました。
