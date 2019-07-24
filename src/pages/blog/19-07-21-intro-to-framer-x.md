@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Intro to Framer X
 date: 2019-07-21 10:19:33
 featuredpost: false
-featuredimage: /img/framerx/og-framerx.jpg
+featuredimage: /img/og-framerx.jpg
 description: Framer Xのハンズオンmeetupに参加してきました。
 tags:
   - meetup
@@ -14,7 +14,7 @@ tags:
 
 個人的にかなり使い勝手が好きでよかったけど Sketch から乗り換えるかと言われるとまだ怪しい
 
-![eyecatch](/img/framerx/og-framerx.jpg)
+![eyecatch](/img/og-framerx.jpg)
 
 7 月 21 日に [Intro to Framer X(for beginners)](https://www.meetup.com/Get-together-learn-and-make-some-design/events/263145321/) に参加してきた記録です。
 
@@ -44,13 +44,13 @@ tags:
 - スライドショー（アニメーション有）
 - レコメンデーション（横スクロール有）
 
-![demo](/img/framerx/ss/demo.jpg)
+![demo](/img/demo.jpg)
 
 ### Packages
 
 豊富なアドオンがありサクッとインストールしてすぐ使えます。
 
-![](/img/framerx/ss/plugins.jpg)
+![package](/img/plugins.jpg)
 
 ##### 今回使ったものは以下：
 
@@ -66,7 +66,7 @@ tags:
 
   Youtube 動画埋め込み用。プレビューすると**実際にプレイヤーが表示され再生もできる**。
 
-  ![youtube](/img/framerx/ss/youtube.jpg)
+  ![youtube](/img/youtube.jpg)
 
 - Icon Generator
 
@@ -90,7 +90,7 @@ Frame のなかにさらに Frame を作る場合は `G`で**Drawing Mode**に�
 
 ##### 以下画像は Drawing Mode で再生ボタンを作っているところ
 
-![](/img/framerx/ss/button.jpg)
+![button](/img/button.jpg)
 
 このあたりの使い勝手は非常に良くて、デザインの時点でコンポーネント指向がかなり簡単に実現されている印象。
 
@@ -109,13 +109,13 @@ Frame のなかにさらに Frame を作る場合は `G`で**Drawing Mode**に�
 スタックの中にまとめられた要素は`display: flex;`の要領でうまいこと配置してくれます。
 
 スタックエリアを作り
-![stack](/img/framerx/ss/stack-1.jpg)
+![stack1](/img/stack-1.jpg)
 
 要素を放り込んで並び方を指定して
-![stack](/img/framerx/ss/stack-2.jpg)
+![stack2](/img/stack-2.jpg)
 
 使いたい場所に移動する(ここでは Overflow: hidden;を指定しています)
-![stack](/img/framerx/ss/stack-3.jpg)
+![stack3](/img/stack-3.jpg)
 
 もちろんオプションで space-around や space-between などの flex 用のプロパティを変更できます。
 
