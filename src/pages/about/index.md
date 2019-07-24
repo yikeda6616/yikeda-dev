@@ -69,6 +69,7 @@ Google Places API から現在地付近 200m 以内の飲食店を２０件取�
 
 バックエンドに Express, フロントエンドに React を使ったシンプルなパスワードジェネレーターアプリです。
 React から API リクエストを送り返ってきた json データを React Hooks で State に格納し表示しています。
+
 -:ts-node, express, React
 
 ### 各種 SNS
