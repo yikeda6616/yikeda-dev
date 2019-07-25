@@ -41,7 +41,7 @@ Pug や Sass の学習コストは低いのでまだ使ったことがないと�
 
 ## 実行環境
 
-```shell
+```
 $ gulp -v
 CLI version 2.1.0
 Local version 4.0.0
