@@ -184,6 +184,7 @@ export const productPageQuery = graphql`
               }
             }
             text
+            link
           }
           heading
           description
