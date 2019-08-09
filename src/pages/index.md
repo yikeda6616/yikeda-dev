@@ -7,7 +7,7 @@ subheading: Tech Blog
 mainpitch:
   title: Hi I'm Yasu
   description: >
-    I write codes and blog for fun.
+    Web Engineer from Japan.
 description: >-
   This blog is my memorandom.
 intro:

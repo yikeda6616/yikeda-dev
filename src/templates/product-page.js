@@ -20,40 +20,40 @@ export const ProductPageTemplate = ({
 }) => (
   <div className='content'>
     <div
-      className='full-width-image-container margin-top-0'
-      // style={{
-      //   backgroundImage: `url(${
-      //     !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-      //   })`
-      // }}
+      className='full-width-image-container margin-bottom-0'
+      style={{
+        backgroundImage: `url(${
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        })`,
+        backgroundPosition: 'center'
+      }}
     >
       <h2
         className='has-text-weight-bold is-size-1 heading-primary'
-        style={
-          {
-            // boxShadow: '0.5rem 0 0 #171717, -0.5rem 0 0 #171717',
-            // backgroundColor: '#171717',
-            // color: 'white',
-            // padding: '1rem'
-          }
-        }
+        style={{
+          textTransform: 'uppercase'
+          // boxShadow: '0.5rem 0 0 #171717, -0.5rem 0 0 #171717',
+          // backgroundColor: '#171717',
+          // color: 'white',
+          // padding: '1rem'
+        }}
       >
         {title}
       </h2>
     </div>
     <section className='section section--gradient'>
       <div className='container'>
-        <div className='section'>
-          <div className='columns'>
-            <div className='column is-7 is-offset-1'>
-              <h3 className='has-text-weight-semibold is-size-2'>{heading}</h3>
-              <p>{description}</p>
-            </div>
+        {/* <div className='section'> */}
+        <div className='columns'>
+          <div className='column is-7 is-offset-1'>
+            <h3 className='has-text-weight-semibold is-size-2'>{heading}</h3>
+            <p>{description}</p>
           </div>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <Features gridItems={intro.blurbs} />
-              {/* <div className='columns'>
+        </div>
+        <div className='columns'>
+          <div className='column is-10 is-offset-1'>
+            <Features gridItems={intro.blurbs} />
+            {/* <div className='columns'>
                 <div className='column is-7'>
                   <h3 className='has-text-weight-semibold is-size-3'>
                     {main.heading}
@@ -61,7 +61,7 @@ export const ProductPageTemplate = ({
                   <p>{main.description}</p>
                 </div>
               </div> */}
-              {/* <div className='tile is-ancestor'>
+            {/* <div className='tile is-ancestor'>
                 <div className='tile is-vertical'>
                   <div className='tile'>
                     <div className='tile is-parent is-vertical'>
@@ -82,8 +82,8 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div> */}
-              {/* <Testimonials testimonials={testimonials} /> */}
-              {/* <div
+            {/* <Testimonials testimonials={testimonials} /> */}
+            {/* <div
                 className='full-width-image-container'
                 style={{
                   backgroundImage: `url(${
@@ -98,9 +98,9 @@ export const ProductPageTemplate = ({
               </h2>
               <p className='is-size-5'>{pricing.description}</p>
               <Pricing data={pricing.plans} /> */}
-            </div>
           </div>
         </div>
+        {/* </div> */}
       </div>
     </section>
   </div>
