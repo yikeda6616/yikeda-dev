@@ -1,24 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const FeatureGrid = ({ gridItems }) => (
   <div className='columns is-multiline'>
     {gridItems.map(item => (
       <div key={item.text} className='column is-6'>
-        <section className='section'>
-          <div className='has-text-centered'>
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block'
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
+        <a href={item.link}>
+          <section className='section'>
+            <div className='has-text-centered'>
+              <div
+                style={{
+                  width: '240px',
+                  display: 'inline-block'
+                }}
+              >
+                <PreviewCompatibleImage imageInfo={item} />
+              </div>
             </div>
-          </div>
-          <p>{item.text}</p>
-        </section>
+            <p className='has-text-centered'>{item.text}</p>
+          </section>
+        </a>
       </div>
     ))}
   </div>

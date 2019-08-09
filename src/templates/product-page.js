@@ -82,8 +82,8 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
-              <div
+              {/* <Testimonials testimonials={testimonials} /> */}
+              {/* <div
                 className='full-width-image-container'
                 style={{
                   backgroundImage: `url(${
@@ -97,7 +97,7 @@ export const ProductPageTemplate = ({
                 {pricing.heading}
               </h2>
               <p className='is-size-5'>{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+              <Pricing data={pricing.plans} /> */}
             </div>
           </div>
         </div>

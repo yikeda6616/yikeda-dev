@@ -12,18 +12,22 @@ description: >-
   This blog is my memorandom.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/mikesmooth-mockup.jpg
       text: >
-        text
-    - image: /img/coffee-gear.png
+        Mike Smooth
+      link: https://mike-smooth-233117.firebaseapp.com/
+    - image: /img/valeriefisher-mockup.jpg
       text: >
-        text
-    - image: /img/tutorials.png
+        Valerie Fisher
+      link: http://yikeda.ca/valeriefisher/
+    - image: /img/gulp-pug-sass.png
       text: >
-        text
-    - image: /img/meeting-space.png
+        Gulp Static Coding Starter Kit
+      link: /blog/19-04-24-gulp-v4-setting/
+    - image: /img/webpack.jpg
       text: >
-        text
+        Webpack V4 Configs
+      link: https://github.com/yikeda6616/webpack-v4-setting/branches/all
   heading: What we offer
   description: >
     description

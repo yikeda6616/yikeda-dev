@@ -1,25 +1,29 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Products
+title: Projects
 image: /img/jumbotron.jpg
-heading: Things I created for fun
+heading: Here's some stuff that I enjoyed creating
 description: >-
-  Under construction yet
+  Still in progress...
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/mikesmooth-mockup.jpg
       text: >
-        lorem
-    - image: /img/coffee-gear.png
+        Mike Smooth
+      link: https://mike-smooth-233117.firebaseapp.com/
+    - image: /img/valeriefisher-mockup.jpg
       text: >
-        lorem
-    - image: /img/tutorials.png
+        Valerie Fisher
+      link: http://yikeda.ca/valeriefisher/
+    - image: /img/gulp-pug-sass.png
       text: >
-        lorem
-    - image: /img/meeting-space.png
+        Gulp Static Coding Starter
+      link: /blog/19-04-24-gulp-v4-setting/
+    - image: /img/webpack.jpg
       text: >
-        lorem
+        Webpack Configs
+      link: https://github.com/yikeda6616/webpack-v4-setting/branches/all
   heading: What we offer
   description: >
     lorem
