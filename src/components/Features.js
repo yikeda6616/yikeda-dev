@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 const FeatureGrid = ({ gridItems }) => (
@@ -18,8 +17,8 @@ const FeatureGrid = ({ gridItems }) => (
               >
                 <PreviewCompatibleImage imageInfo={item} />
               </div>
+              <p className='has-text-centered'>{item.text}</p>
             </div>
-            <p className='has-text-centered'>{item.text}</p>
           </section>
         </a>
       </div>

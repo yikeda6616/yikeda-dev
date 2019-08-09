@@ -74,15 +74,15 @@ const Navbar = class extends Component {
               <Link className='navbar-item' to='/about'>
                 About
               </Link>
-              {/* <Link className='navbar-item' to='/products'>
+              <Link className='navbar-item' to='/products'>
                 Projects
-              </Link> */}
+              </Link>
               <Link className='navbar-item' to='/blog'>
                 Blog
               </Link>
-              <Link className='navbar-item' to='/contact'>
+              {/* <Link className='navbar-item' to='/contact'>
                 Contact
-              </Link>
+              </Link> */}
               <a
                 className='navbar-item'
                 href='https://github.com/yikeda6616'

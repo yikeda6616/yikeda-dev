@@ -22,7 +22,7 @@ intro:
       link: http://yikeda.ca/valeriefisher/
     - image: /img/gulp-pug-sass.png
       text: >
-        Gulp Static Coding Starter Kit
+        Gulp Static Starter Kit
       link: /blog/19-04-24-gulp-v4-setting/
     - image: /img/webpack.jpg
       text: >

@@ -3,9 +3,9 @@ templateKey: 'product-page'
 path: /products
 title: Projects
 image: /img/jumbotron.jpg
-heading: Here's some stuff that I enjoyed creating
+heading: Things that I enjoyed creating
 description: >-
-  Still in progress...
+  Still in progress
 intro:
   blurbs:
     - image: /img/mikesmooth-mockup.jpg
@@ -18,7 +18,7 @@ intro:
       link: http://yikeda.ca/valeriefisher/
     - image: /img/gulp-pug-sass.png
       text: >
-        Gulp Static Coding Starter
+        Gulp Static Starter Kit
       link: /blog/19-04-24-gulp-v4-setting/
     - image: /img/webpack.jpg
       text: >
