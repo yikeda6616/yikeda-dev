@@ -1,14 +1,14 @@
 ---
-templateKey: 'about-page'
+templateKey: "about-page"
 path: /about
 title: All about me.
 ---
 
 ### 自己紹介
 
-Node + React が好きな Web エンジニアです。
+都内でフリーランス(業務委託)で働いてる Web エンジニアです。
 
-モダンな技術に興味があり他の技術スタックの仕事も喜んでやります。
+モダンな技術に興味があり、最近は JavaScript(Node.js と React.js) が好きです。
 
 大学卒業後１年間 SES で働いたのち、バンクーバーの専門学校で１年間デザインの勉強をしました。
 
