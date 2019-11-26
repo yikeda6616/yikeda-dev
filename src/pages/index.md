@@ -19,7 +19,7 @@ intro:
     - image: /img/valeriefisher-mockup.jpg
       text: >
         Valerie Fisher
-      link: http://yikeda.ca/valeriefisher/
+      link: https://github.com/yikeda6616/valeriefisher
     - image: /img/gulp-pug-sass.png
       text: >
         Gulp Static Starter Kit
