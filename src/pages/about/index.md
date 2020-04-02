@@ -10,7 +10,7 @@ title: All about me.
 
 モダンな技術に興味があり、最近は JavaScript(Node.js と React.js) が好きです。
 
-大学卒業後１年間 SES で働いたのち、バンクーバーの専門学校で１年間デザインの勉強をしました。
+カナダの専門学校で1年間デザインを学んだので英語とデザインも人並みにできます。
 
 ### 技術スキル
 
@@ -28,11 +28,11 @@ title: All about me.
 
 - デザイン
 
-  Sketch, Illustrator, Photoshop, XD
+  Figma, Sketch, Illustrator, Photoshop, XD
 
 - その他
 
-  React Native, Git, WordPress
+  Expo, React Native, Git, WordPress
 
 ### その他スキル
 
@@ -42,13 +42,18 @@ title: All about me.
 
 ## 作ったもの
 
-### 当サイト
+### [当サイト](https://github.com/yikeda6616/yikeda-dev)
 
 当サイトは Gatsby + Netlify CMS で実装しています。
 Gatsby は React ベースの静的サイト構築ライブラリで、Netlify にてホスティングしています。
 当サイトの設計・デザイン・コーディング・実装を私自身で行なっています。
 
 -：React, Gatsby, Sass, Netlify
+
+### [Instagram Like Bot](https://github.com/yikeda6616/ig-scraper)
+
+Puppeteer.jsでInstagramにログインし、特定のハッシュタグのポストを自動でLikeするプログラム。TypeScriptで開発しました。
+-: ts-node, puppeteer.js
 
 ### [Mike Smooth](https://mike-smooth-233117.firebaseapp.com/)
 
@@ -57,7 +62,7 @@ React でシンプルな音楽プレイヤーを実装した DJ のホームペ�
 
 -：React, React-Router, React-Transition, Sass, Firebase, Sketch, Illustrator
 
-### Gurumeshi
+### [Gurumeshi](https://github.com/yikeda6616/gurumeshiv2)
 
 Google Places API から現在地付近 200m 以内の飲食店を２０件取得し、ランダムに１件表示するくじ引きのようなモバイルアプリです。
 お昼時に食べに行くお店を決められないので作りました。
