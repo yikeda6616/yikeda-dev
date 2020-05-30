@@ -82,4 +82,4 @@ React から API リクエストを送り返ってきた json データを React
 - [Twitter](https://twitter.com/yikeda6616)
 - [Instagram](https://www.instagram.com/yikeda6616/)
 - [Wantedly](https://www.wantedly.com/users/18237225)
-- [LinkedIn](https://www.linkedin.com/in/yasushi-ikeda-0aa72b153/)
+- [LinkedIn](https://bit.ly/36OnrnV)
