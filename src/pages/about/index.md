@@ -16,11 +16,11 @@ title: All about me.
 
 - サーバーサイド
 
-  Node, Express
+  Node.js, Express, PHP
 
 - フロントエンド
 
-  React, Redux, Gulp, Webpack, Pug, Sass
+  React, Redux, styled-components, Gulp, Webpack, Pug, Sass
 
 - インフラ・DB
 
@@ -66,7 +66,7 @@ React でシンプルな音楽プレイヤーを実装した DJ のホームペ�
 
 Google Places API から現在地付近 200m 以内の飲食店を２０件取得し、ランダムに１件表示するくじ引きのようなモバイルアプリです。
 お昼時に食べに行くお店を決められないので作りました。
-デザイナーの友人[Reo さん]()と二人で, React Native (Expo)で開発し、主に API ロジックを実装しました。
+デザイナーの友人であり、[Web制作チームGLUT](https://glut.jp/)の代表をされているReoさんと二人で, React Native (Expo)で開発し、主に API ロジックを実装しました。
 
 -:React Native, Expo, Sketch
 
