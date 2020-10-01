@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: [Node.js入門]Expressで初めてのフルスタックWebアプリ開発
+title: 【Node.js入門】Expressで初めてのフルスタックWebアプリ開発
 date: 2020-10-01 23:41:16
 featuredpost: false
 featuredimage: /img/og-image.jpg
