@@ -53,6 +53,7 @@ Gatsby は React ベースの静的サイト構築ライブラリで、Netlify �
 ### [Instagram Like Bot](https://github.com/yikeda6616/ig-scraper)
 
 Puppeteer.jsでInstagramにログインし、特定のハッシュタグのポストを自動でLikeするプログラム。TypeScriptで開発しました。
+
 -: ts-node, puppeteer.js
 
 ### [Mike Smooth](https://mike-smooth-233117.firebaseapp.com/)
@@ -66,7 +67,7 @@ React でシンプルな音楽プレイヤーを実装した DJ のホームペ�
 
 Google Places API から現在地付近 200m 以内の飲食店を２０件取得し、ランダムに１件表示するくじ引きのようなモバイルアプリです。
 お昼時に食べに行くお店を決められないので作りました。
-デザイナーの友人であり、[Web制作チームGLUT](https://glut.jp/)の代表をされているReoさんと二人で, React Native (Expo)で開発し、主に API ロジックを実装しました。
+デザイナーの友人であり、[Web制作チームGLUT](https://glut.jp/)代表のReoさんと二人でReact Native (Expo)で開発し、主に API ロジックを実装しました。
 
 -:React Native, Expo, Sketch
 
@@ -82,4 +83,4 @@ React から API リクエストを送り返ってきた json データを React
 - [Twitter](https://twitter.com/yikeda6616)
 - [Instagram](https://www.instagram.com/yikeda6616/)
 - [Wantedly](https://www.wantedly.com/users/18237225)
-- [LinkedIn](https://bit.ly/36OnrnV)
+- [LinkedIn](https://www.linkedin.com/in/yasushi-ikeda-0aa72b153/)
