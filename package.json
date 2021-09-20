@@ -29,7 +29,7 @@
     "netlify-cms-media-library-uploadcare": "^0.5.2",
     "node-sass": "^4.13.1",
     "parcel-bundler": "^1.9.4",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.25.0",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
